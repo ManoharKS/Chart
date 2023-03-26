@@ -1,0 +1,12 @@
+{
+    "data": [
+      {
+        "category": "Software Status",
+        "numbers": [42,15,13],
+        "labels": [
+        "Devices software updated", "Devices software failure", "Devices software update pending"
+        ],
+        "colors": ["#00A35C", "#FFE670", "#FC8A91"]
+      }
+    ]
+  }

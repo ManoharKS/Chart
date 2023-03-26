@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "category": "Pairing Status",
+      "numbers": [85, 15],
+      "labels": [
+       "Paired", "Unpaired"
+      ],
+      "colors": ["#00A199", "#FFE769", "#AFE4DE"]
+    }
+  ]
+}

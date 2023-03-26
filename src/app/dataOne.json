@@ -1,0 +1,10 @@
+{
+  "data": [
+    {
+      "category": "Device Status",
+      "numbers": [60, 20, 15, 5],
+      "labels": ["Vivalytic one", "Vivalytic pro", "Viva pro max", "others"],
+      "colors": ["#00A35C", "#FFE769", "#A2ECC3", "#72D5A3", "#C5F3D8"]
+    }
+  ]
+}

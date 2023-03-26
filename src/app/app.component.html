@@ -1,0 +1,26 @@
+<div id="doughnut-chart-ui">
+  <div class="chart" *ngFor="let dChart of doughnutCharts">
+    <p class="category">{{ dChart.category }}</p>
+    <div>
+      <div>
+        <doughnut-chart [chartLabels]="dChart.labels" [jsonArray]="dChart.numbers"
+          [backgroundColors]="dChart.colors"></doughnut-chart>
+      </div>
+    </div>
+    <div class="chart-specs">
+      <div class="color-wrapper">
+        <div *ngFor="let item of dChart.colors">
+          <div class="color-ref" [ngStyle]="{ background: item }"></div>
+        </div>
+      </div>
+      <div class="label-ref">
+        <div *ngFor="let item of dChart.labels">
+          {{ item }}
+        </div>
+      </div>
+      <div class="percent">
+        <div *ngFor="let item of dChart.numbers">{{ item }}</div>
+      </div>
+    </div>
+  </div>
+</div>

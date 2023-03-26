@@ -1,0 +1,10 @@
+{
+    "data": [
+        {
+            "category": "Device Usage",
+            "numbers": [450,158,168,74],
+            "labels": ["Cardiac biomakers", "Coagulation panel", "Hemoglobin A1C", "Others"],
+            "colors": ["#009AF0", "#FFE769", "#B4DDFB", "#8BCBFF"]
+        }
+    ]
+  }
