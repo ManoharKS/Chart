@@ -10,7 +10,7 @@ import { DoughnutChartComponent } from "./doughnut-chart/doughnut-chart.componen
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.scss"],
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   arrOne: any = dataOne.data[0];
   arrTwo: any = dataTwo.data[0];
   arrThree: any = dataThree.data[0];
@@ -19,8 +19,6 @@ export class AppComponent implements OnInit {
   @ViewChild(DoughnutChartComponent) dChartComp: any;
 
   constructor() {}
-
-  ngOnInit(): void {}
 
   doughnutCharts: any = [this.arrOne, this.arrTwo, this.arrThree, this.arrFour];
 }
