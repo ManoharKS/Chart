@@ -5,9 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgChartsModule } from 'ng2-charts';
 import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
-  declarations: [AppComponent, DoughnutChartComponent],
+  declarations: [AppComponent, DoughnutChartComponent, TestComponent],
   imports: [BrowserModule, AppRoutingModule, NgChartsModule, FormsModule],
   providers: [],
   schemas: [NO_ERRORS_SCHEMA],
